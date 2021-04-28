@@ -1,0 +1,12 @@
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\bin\Debug\net5.0\Flying.Sun.Domain.deps.json
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\bin\Debug\net5.0\Flying.Sun.Domain.dll
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\bin\Debug\net5.0\ref\Flying.Sun.Domain.dll
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\bin\Debug\net5.0\Flying.Sun.Domain.pdb
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\obj\Debug\net5.0\Flying.Sun.Domain.csprojAssemblyReference.cache
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\obj\Debug\net5.0\Flying.Sun.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\obj\Debug\net5.0\Flying.Sun.Domain.AssemblyInfoInputs.cache
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\obj\Debug\net5.0\Flying.Sun.Domain.AssemblyInfo.cs
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\obj\Debug\net5.0\Flying.Sun.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\obj\Debug\net5.0\Flying.Sun.Domain.dll
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\obj\Debug\net5.0\ref\Flying.Sun.Domain.dll
+C:\Users\mrudu\OneDrive\Desktop\repos\flying-sun-api\backend\Flying.Sun.Domain\obj\Debug\net5.0\Flying.Sun.Domain.pdb
