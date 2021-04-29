@@ -13,8 +13,11 @@ namespace Flying.Sun.Api
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var host = CreateHostBuilder(args).Build();
+            CreateDbIfNotExists(host);
+            host.Run();
         }
+
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
@@ -22,5 +25,24 @@ namespace Flying.Sun.Api
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+        private static void CreateDbIfNotExists(IHost host)
+        {
+            using (var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var logger = services.GetRequiredServices<ILogger<Program>>();
+                try
+                {
+                    var context = services.GetRequiredServices<StoreContext>();
+                    context.Database.EnsureCreated();
+                    DbInitializer.Initialize(context, logger);
+                }
+                catch
+                {
+                    logger.LogError(ex, "Error occurred creating the database.");
+                }
+            }
+        }
+
     }
 }
